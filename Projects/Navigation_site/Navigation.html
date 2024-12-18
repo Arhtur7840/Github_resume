@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2: The navigation bar.</title>
+    <style>
+        body{
+            margin:unset;
+        }
+        .searchbar{
+            background-color:white;
+            position:fixed;
+            text-align:center;
+            font-size:1.1em;
+            word-spacing:0.4em;
+            padding: 1.25em .32em;
+            width:100%;
+            height:2em;
+        }
+        a{
+            text-decoration:none;
+            color:black;
+        }
+        .aboutus{
+            margin: 1em;
+            text-align:center;
+        }
+        .littleboxes{
+            width:50%;
+            height:400px;
+            position:relative;
+            float:left;
+        }
+        #beachimage{
+            left:100px;
+            top:100px;
+            z-index:2;
+            position:absolute;
+        }
+        #boxgreen{
+            left:50px;
+            top:50px;
+            width:250px;
+            height:200px;
+            z-index:1;
+            border:5px solid green;
+            background-color:white;
+            position:absolute;
+        }
+        .footer{
+            position:relative;
+        }
+        #footertext{
+            width:100%;
+            text-align:center;
+            padding: 1em 0em 1em 0em;
+            background-color:black;
+            color:white;
+            position:absolute;
+            top:200px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="searchbar">
+        <a href="home">Home</a>
+        <a href="about">About</a>
+        <a href="services">Services</a>
+        <a href="featured">Featured</a>
+        <a href="gallery">Gallery</a>
+    </nav>
+    <div>
+        <img src="main.jpeg" alt="view" width="100%" height="600px">
+    </div>
+    <div class="aboutus">
+        <h2>
+            About Us
+        </h2>
+    </div>
+    <div class="littleboxes">
+        <img src="about.jpeg" alt="beach image" id="beachimage" width="250px" height="200px">
+        <div id="boxgreen"></div>
+    </div>
+    <div id="text">
+        <h3>
+            Explore the difference
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias minus delectus a! Ipsam perspiciatis vitae in. Adipisci saepe aut similique facilis accusamus blanditiis eligendi cupiditate ullam quo sint, soluta qui unde laudantium ratione nam aperiam molestiae in tenetur consequuntur nobis delectus? Odit eligendi repellendus dolore est eos fugit cum consectetur vitae doloribus ipsam. Reprehenderit, atque earum? Tempore repellat aliquam dolor quae mollitia similique ipsum maxime! Praesentium doloremque dolor a labore optio in maiores architecto!
+        </p>
+    </div>
+    <div class="footer">
+        <footer id="footertext">
+            &copy All Rights Reserved To
+        </footer>
+    </div>
+</body>
+</html>

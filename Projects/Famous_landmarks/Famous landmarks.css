@@ -1,0 +1,37 @@
+:root{
+    /* Just to remind myself to make a root. */
+    font-size:16px;
+}
+body{
+    background-color:gray;
+    margin:unset;
+}
+body * + *{
+    margin: 0.67em 0 0 0;
+}
+.header{
+    font-size:1.4em;
+    letter-spacing:0.2em;
+    padding: 0.67em 0 0.67em 0;
+    color:purple;
+    background-color:white;
+    text-align:center;
+}
+#header{
+    width:calc(100%);
+    height:fit-content;
+    margin:unset;
+}
+.boxes{
+    max-width:calc(49.6%);
+    background-color:white;
+    border-radius:0.8em;
+    display:inline-block;
+    vertical-align:top;
+}
+.images{
+    max-width:calc(35%);
+    padding: 0.67em 0em 0em 0.5em;
+    border-radius:1em;
+    float:left;
+}

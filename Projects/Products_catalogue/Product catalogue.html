@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 2: Product Catalogue</title>
+    <style>
+        :root{
+            font-size:16px;
+        }
+        table{
+            margin:0 auto;
+            border: 1px solid black;
+            border-collapse:collapse;
+        }
+        tr, th{
+            border: 1px solid black;
+        }
+        th{
+            color:white;
+            background-color:limegreen;
+            padding: 0.67em 0.67em 0.67em 0;
+        }
+        tr, td{
+            border: 1px solid black;
+        }
+        td{
+            padding: 0.67em 0.67em 0.67em 0;
+        }
+        tr:hover{
+            background-color:lightblue;
+        }
+        .cheap{
+            background-color:white;
+        }
+        .mediumprice{
+            background-color:darkgray;
+        }
+        .highprice{
+            background-color:gray;
+        }
+        #name{
+            width:275px;
+        }
+        #category{
+            width:80px;
+        }
+        #price{
+            width:80px;
+        }
+        #stock{
+            width:125px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th id="name">Product Name</th>
+            <th id="category">Category</th>
+            <th id="price">Price</th>
+            <th id="stock">Stock Status</th>
+        </tr>
+        <tr class="mediumprice">
+            <td>Wireless Headphones</td>
+            <td>Electronics</td>
+            <td>$79.99</td>
+            <td>In Stock</td>
+        </tr>
+        <tr class="cheap">
+            <td>Yoga Mat</td>
+            <td>Fitness</td>
+            <td>$19.99</td>
+            <td>Out of Stock</td>
+        </tr>
+        <tr class="highprice">
+            <td>Smartwatch</td>
+            <td>Electronics</td>
+            <td>$199.99</td>
+            <td>In Stock</td>
+        </tr>
+        <tr class="mediumprice">
+            <td>Gaming Mouse</td>
+            <td>Acessories</td>
+            <td>$49.99</td>
+            <td>In Stock</td>
+        </tr>
+        <tr class="cheap">
+            <td>Coffe Mug</td>
+            <td>Home</td>
+            <td>$12.99</td>
+            <td>In Stock</td>
+        </tr>
+        <tr class="mediumprice">
+            <td>Bluetooth Speaker</td>
+            <td>Electronics</td>
+            <td>$89.99</td>
+            <td>Out of Stock</td>
+        </tr>
+    </table>
+</body>
+</html>
